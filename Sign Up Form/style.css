@@ -1,0 +1,113 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #6e2e2e;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+i {
+    color: rgb(180, 133, 133);
+    font-size: 25px;
+}
+.form-box h1{
+    text-align: center;
+    color: rgb(180, 133, 133);
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+.form-box {
+    width: 90%;
+    max-width: 450px;
+    min-width: 350px;
+    background-color: hsl(0, 81%, 6%);
+    padding: 55px;
+    text-align: center;
+    border: 2px solid #be989e;
+    border-radius: 15px;
+}
+input {
+    margin-left: 8px;
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    background-color: #331616;
+    cursor: pointer;
+}
+
+.form-box .under-line {
+    width: 30px;
+    height: 5px;
+    background-color: rgb(180, 133, 133);
+    margin: 10px auto 50px auto;
+    border-radius: 25px;
+
+    transition: transform 0.5s;
+}
+
+.input-field { 
+     max-height: 60px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+ } 
+p {
+    text-align: center;
+    font-size: 15px;
+     color: #be989e;
+     margin-top: 12px;
+     letter-spacing: 1px;
+}
+a {
+    color: #724b51;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-field {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.btn-field button{
+    flex-basis: 45%;
+    background-color: #be989e;
+    border: navajowhite;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.input-group {
+    height: 200px;
+}
+
+button.disable {
+    background-color: rgb(43, 16, 16);
+    color: wheat;
+}
